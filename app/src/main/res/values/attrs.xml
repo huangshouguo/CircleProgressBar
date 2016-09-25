@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="cpb_progress" format="float|reference"/>
+        <attr name="cpb_background_stroke_color" format="color|reference"/>
+        <attr name="cpb_progress_stroke_start_color" format="color|reference"/>
+        <attr name="cpb_progress_stroke_end_color" format="color|reference"/>
+        <attr name="cpb_progress_text_color" format="color|reference"/>
+        <attr name="cpb_background_stroke_width" format="dimension|reference"/>
+        <attr name="cpb_progress_stroke_width" format="dimension|reference"/>
+        <attr name="cpb_progress_text_show_enable" format="boolean|reference"/>
+        <attr name="cpb_progress_text_size" format="dimension|reference"/>
+        <attr name="cpb_progress_text" format="string|reference"/>
+        <attr name="cpb_progress_animate_show_enable" format="boolean|reference"/>
+        <attr name="cpb_progress_animate_duration" format="integer|reference"/>
+    </declare-styleable>
+</resources>
