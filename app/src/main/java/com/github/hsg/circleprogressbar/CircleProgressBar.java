@@ -28,9 +28,9 @@ public class CircleProgressBar extends View {
     private static final int DEFAULT_PROGRESS_STROKE_START_COLOR = Color.parseColor("#00a2ff");
     private static final int DEFAULT_PROGRESS_STROKE_END_COLOR = Color.parseColor("#d175ec");
     private static final int DEFAULT_PROGRESS_TEXT_COLOR = Color.parseColor("#313131");
-    private static final float DEFAULT_BACKGROUND_STROKE_WIDTH = 2f;
-    private static final float DEFAULT_PROGRESS_STROKE_WIDTH = 3f;
-    private static final float DEFAULT_PROGRESS_TEXT_SIZE = 10f;
+    private static final float DEFAULT_BACKGROUND_STROKE_WIDTH = 0.8f;
+    private static final float DEFAULT_PROGRESS_STROKE_WIDTH = 1f;
+    private static final float DEFAULT_PROGRESS_TEXT_SIZE = 4f;
     private static final int DEFAULT_PROGRESS_ANIMATE_DURATION = 1000; //unit: ms
 
     // this view property
