@@ -32,9 +32,15 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# Intellij
+# ignore intellij folder
+.idea/
 *.iml
-.idea/workspace.xml
+*.ipr
+*.iws
+
+# Mac OS X
+.DS_Store
+*.swp
 
 # Keystore files
 *.jks
